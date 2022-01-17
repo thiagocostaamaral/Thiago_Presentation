@@ -6,4 +6,21 @@
     clip-path: circle();
   }
 
+.footer {
+    background-color: #A57E5F;
+    font-size: 150%;
+    text-align: center;
+    padding-top: 20px;
+    height: 80px;
+}
+
+/* Paleta de Cores 
+.color1 { #fbdebc };
+.color2 { #b9b498 };
+.color3 { #9a8d75 };
+.color4 { #A57E5F };
+.color5 { #272C2E };
+*/
+ 
+
 
