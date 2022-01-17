@@ -12,6 +12,19 @@
     text-align: center;
     padding-top: 20px;
     height: 80px;
+    
+}
+
+.card {
+    border: 5px solid #272C2E;
+    border-radius: 60px;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #fbdebc;
+    height: 500px;
+    width: 500px;
+    margin-left: 70px;
 }
 
 /* Paleta de Cores 
