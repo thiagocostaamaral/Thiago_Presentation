@@ -16,15 +16,20 @@
 }
 
 .card {
-    border: 5px solid #272C2E;
+    border: 1px solid #272C2E;
     border-radius: 60px;
     padding-top: 10px;
     text-align: center;
     padding-bottom: 10px;
     background-color: #fbdebc;
     height: 500px;
-    width: 500px;
+    width: 85%;
     margin-left: 70px;
+    box-shadow: 10px 5px 5px rgb(43, 42, 42);
+}
+
+.card:hover {
+    background-color: #dfb492;
 }
 
 /* Paleta de Cores 
