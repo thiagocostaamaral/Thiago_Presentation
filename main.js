@@ -33,10 +33,10 @@ for(var project in projects){
     body = '\t\t<div  class=card>\n'
     body += '\t\t\t<div>'
     // Language
-    if (projects[project]['Language'] == 'Python') {body +='<img src="Python_symbol.png" width="150px" height="70px">'}
-    else if(projects[project]['Language'] == 'C++') {body +='<img src="C_symbol.png" width="100px" height="70px">'}
-    else if(projects[project]['Language'] == 'R') {body +='<img src="R_symbol.png" width="70px" height="50px">'}
-    else if(projects[project]['Language'] == 'HTML5') {body +='<img src="HTML5_symbol.png" width="70px" height="70px">'}
+    if (projects[project]['Language'] == 'Python') {body +='<img src="Images/Python_symbol.png" width="150px" height="70px">'}
+    else if(projects[project]['Language'] == 'C++') {body +='<img src="Images/C_symbol.png" width="100px" height="70px">'}
+    else if(projects[project]['Language'] == 'R') {body +='<img src="Images/R_symbol.png" width="70px" height="50px">'}
+    else if(projects[project]['Language'] == 'HTML5') {body +='<img src="Images/HTML5_symbol.png" width="70px" height="70px">'}
     //
     body += '\t\t\t</div>\n'
     body += '\t\t</div>\n'
