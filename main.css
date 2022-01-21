@@ -4,6 +4,7 @@
     margin-right: auto;
     width: 50%;
     clip-path: circle();
+    height:150px;
   }
 
 .footer {
@@ -31,6 +32,23 @@
 .card:hover {
     background-color: #dfb492;
 }
+
+.button {
+  background-color: #A57E5F;
+  width: 20%;
+  border-radius: 10px;
+}
+
+a { color: inherit; } 
+
+.card_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    height: 220px;
+    
+  }
 
 /* Paleta de Cores 
 .color1 { #fbdebc };
