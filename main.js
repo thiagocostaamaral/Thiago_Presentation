@@ -1,10 +1,17 @@
 //Defining projects that will appear to user
 projects = {
-    'Project 1':{
-        'Image':'Wind_Turbines.png',
-        'Description':'Project made to automatically place all wind turbines in a CAD Software (OpenScad) based on its geospacial location and in the topography map. The main objective was to be able to see distance between the tubines and the relation between it size and the terrain',
+
+    'Project 3':{
+        'Image':'Neural.png',
+        'Description':'This code was a side project made during the university period. The main idea was to improve the knowledge of Neural Networks constructing a Multi Layer Perceptron without any Python library instead of "<b>numpy</b>".',
         'Language':'Python',
-        'Code':'',
+        'Code':'https://github.com/thiagocostaamaral/Multilayer-Perceptron-from-scratch',
+    },
+    'Project 4':{
+        'Image':'identifier.png',
+        'Description':'This project was done in a course of machine learning in University of São Paulo. The main idea of it was to identify street sign patterns in some photos using <b>OpenCV</b>.',
+        'Language':'Python',
+        'Code':'https://github.com/thiagocostaamaral/Identifier',
     },
     'Project 2':{
         'Image':'R_interface.png',
@@ -13,17 +20,11 @@ projects = {
         'Code':'https://github.com/thiagocostaamaral/R_data_manipulation',
     },
 
-    'Project 3':{
-        'Image':'Neural.png',
-        'Description':'This code was a side project made during the university period. The main idea was to improve the knowledge of Neural Networks constructiing a Multi Layer Perceptron without any Python library instead of "<b>numpy</b>".',
+    'Project 1':{
+        'Image':'Wind_Turbines.png',
+        'Description':'Project made to automatically place all wind turbines in a CAD Software (OpenScad) based on its geospacial location and in the topography map. The main objective was to be able to see distance between the tubines and the relation between it size and the terrain',
         'Language':'Python',
-        'Code':'https://github.com/thiagocostaamaral/Multilayer-Perceptron-from-scratch',
-    },
-    'Project 4':{
-        'Image':'identifier.png',
-        'Description':'This project was done in a course of machine learning in University of São Paulo. The main idea was to identify some street sign pattern in some photos using <b>OpenCV</b>.',
-        'Language':'Python',
-        'Code':'https://github.com/thiagocostaamaral/Identifier',
+        'Code':'',
     },
     'Project 5':{
         'Image':'',
