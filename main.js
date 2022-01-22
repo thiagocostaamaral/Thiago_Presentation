@@ -26,6 +26,12 @@ projects = {
         'Language':'Python',
         'Code':'',
     },
+    'Project 6':{
+        'Image':'bd.png',
+        'Description':'Structuring a SQL database to unify data from different SCADA systems. The objective was to have all data in a local server to optimize the creation of data process inside the company.',
+        'Language':'PostgreSQL',
+        'Code':'',
+    },
     'Project 5':{
         'Image':'',
         'Description':'Finally, this last projet is the one that you are seeing right now &#128518 . It was created with  github page to allow the user to see my Portfolio via web.',
@@ -47,6 +53,7 @@ for(let project in projects){
     else if(projects[project]['Language'] == 'C++') {body +='<img src="Images/C_symbol.png" width="100px" height="70px">'}
     else if(projects[project]['Language'] == 'R') {body +='<img src="Images/R_symbol.png" width="90px" height="70px">'}
     else if(projects[project]['Language'] == 'HTML5') {body +='<img src="Images/HTML5_symbol.png" width="70px" height="70px">'}
+    else if(projects[project]['Language'] == 'PostgreSQL') {body +='<img src="Images/PostgreSQL.png" width="70px" height="70px">'}
     body += '</div>\n'
     // Image
     body += '\t\t\t<div id = "Image_'+project+'">\n'
