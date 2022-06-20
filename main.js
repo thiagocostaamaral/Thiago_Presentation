@@ -1,6 +1,5 @@
 //Defining projects that will appear to user
 projects = {
-
     'Project 3':{
         'Image':'Neural.png',
         'Description':'This code was a side project made during the university period. The main idea was to improve the knowledge of Neural Networks constructing a Multi Layer Perceptron without any Python library instead of "<b>numpy</b>".',
@@ -103,25 +102,3 @@ if(project_number%2==0){
 console.log(project_number)
 console.log(js_string)
 document.getElementById('Projects').innerHTML = js_string
-
-//Creating event trakers
-for(let project in projects){
-    console.log(project)
-    //Function to be executed when enter the card
-    document.getElementById(project).addEventListener("mouseenter",
-    function( )
-    {
-        console.log('Entrou '+project);
-        //document.getElementById("Image_"+project).innerHTML = '\t\t\t\t<img src="Images/'+projects[project]['Image2']+'"  class="card_image"></img>\n'
-    }
-    );
-    //Function to be executed when exit the card
-    document.getElementById(project).addEventListener("mouseout",
-    function( )
-    {
-        console.log('Saiu '+project)
-        //document.getElementById("Image_"+project).innerHTML = '\t\t\t\t<img src="Images/'+projects[project]['Image']+'"  class="card_image"></img>\n'
-    }
-    );
-}
-

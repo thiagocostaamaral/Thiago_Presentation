@@ -6,13 +6,17 @@
     clip-path: circle();
     height:150px;
   }
+ul li {
+  color:#ffffff;
 
+}
 .footer {
-    background-color: #A57E5F;
+    background-color: #202020;
     font-size: 150%;
     text-align: center;
     padding-top: 20px;
     height: 80px;
+    color:white;
     
 }
 
@@ -22,22 +26,29 @@
     padding-top: 10px;
     text-align: center;
     padding-bottom: 10px;
-    background-color: #fbdebc;
+    background-color: #E8E8E8;
     height: 530px;
     width: 85%;
     margin-left: 70px;
-    box-shadow: 10px 5px 5px rgb(43, 42, 42);
+    /*box-shadow: 10px 5px 5px rgb(43, 42, 42);*/
 }
 
 .card:hover {
-    background-color: #dfb492;
+    background-color: #C0C0C0;
 }
 
 .button {
-  background-color: #A57E5F;
+  background-color: #787878;
   width: 20%;
   border-radius: 10px;
 }
+
+.button:hover {
+  background-color: #9a8d75;
+  width: 20%;
+  border-radius: 10px;
+}
+
 
 a { color: inherit; } 
 
@@ -50,6 +61,11 @@ a { color: inherit; }
     
   }
 
+h1{
+  color:#000000;
+  text-align: center;
+  font-family: cursive;
+}
 /* Paleta de Cores 
 .color1 { #fbdebc };
 .color2 { #b9b498 };
