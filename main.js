@@ -102,3 +102,146 @@ if(project_number%2==0){
 console.log(project_number)
 console.log(js_string)
 document.getElementById('Projects').innerHTML = js_string
+
+//Time Line Figure
+
+Highcharts.chart('timeline_graph', {
+    chart: {
+        type: 'xrange',
+        backgroundColor: 'white'//'#E8E8E8'
+    },
+    title: {
+        text: ''
+    },
+    xAxis: {
+        type: 'datetime'
+    },
+    yAxis: {
+        title: {
+            text: ''
+        },
+        categories: ['Academy', 'Professional'],
+        reversed: true
+    },
+    credits:false,
+    exporting:false,
+    gridLineColor:'black',
+    series: [
+        {
+            name: 'Bachelor - University of São Paulo',
+            //borderColor: 'gray',
+            pointWidth: 15,
+            data: [{
+                x: Date.UTC(2015, 01, 01),
+                x2: Date.UTC(2018, 07, 1),
+                y: 0,
+                color:'#D8D8D8',
+            }, {
+                x: Date.UTC(2019, 07, 1),
+                x2: Date.UTC(2020, 12, 31),
+                y: 0,
+                color:'#D8D8D8',
+            }],
+            dataLabels: {
+                enabled: true
+            }
+        },
+        {
+            name: 'Exchange - KU Leuven',
+            pointWidth: 15,
+            data: [{
+                x: Date.UTC(2018, 07, 01),
+                x2: Date.UTC(2019, 06, 30),
+                y: 0,
+                color:'#606060',
+                //color:{patternIndex: 1}
+            }],
+            dataLabels: {
+                enabled: true
+            }
+        },
+        {
+            name: 'FAPESP - University of São Paulo',
+            pointWidth: 15,
+            data: [
+                {
+                x: Date.UTC(2017, 05, 01),
+                x2: Date.UTC(2018, 04, 31),
+                y: 1,
+                color:'#D8D8D8',
+                },
+                {
+                x: Date.UTC(2017, 01, 01),
+                x2: Date.UTC(2017, 04, 28),
+                y: 1,
+                color:'#D8D8D8'
+                },
+
+            ],
+            dataLabels: {
+                enabled: true
+            }
+        },
+        {
+            name: 'Master - University of São Paulo',
+            pointWidth: 15,
+            data: [
+                {
+                x: Date.UTC(2021, 06, 01),
+                x2: Date.UTC(2023, 06, 31),
+                y: 0,
+                color:'#282828',
+                },
+            ],
+            dataLabels: {
+                enabled: true
+            }
+        },
+        {
+            name: 'Interniship - Echoenergia',
+            pointWidth: 15,
+            data: [
+                {
+                x: Date.UTC(2020, 01, 01),
+                x2: Date.UTC(2020, 07, 01),
+                y: 1,
+                color:'#606060',
+                },
+            ],
+            dataLabels: {
+                enabled: true
+            }
+        },
+        {
+            name: 'Analyst - Echoenergia',
+            pointWidth: 15,
+            data: [
+                {
+                x: Date.UTC(2020, 07, 01),
+                x2: Date.UTC(2022, 01, 31),
+                y: 1,
+                color:'#606060',
+                },
+            ],
+            dataLabels: {
+                enabled: true
+            }
+        },
+        {
+            name: 'Engineer - CTG Brasil',
+            pointWidth: 15,
+            data: [
+                {
+                x: Date.UTC(2022, 02, 01),
+                x2: Date.UTC(2022, 07, 01),
+                y: 1,
+                color:'#282828',
+                },
+            ],
+            dataLabels: {
+                enabled: true
+            }
+        },
+]
+
+});

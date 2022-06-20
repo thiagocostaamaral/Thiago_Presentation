@@ -26,7 +26,7 @@ ul li {
     padding-top: 10px;
     text-align: center;
     padding-bottom: 10px;
-    background-color: #E8E8E8;
+    background-color: white;
     height: 530px;
     width: 85%;
     margin-left: 70px;
@@ -38,13 +38,13 @@ ul li {
 }
 
 .button {
-  background-color: #787878;
+  background-color: #D8D8D8;
   width: 20%;
   border-radius: 10px;
 }
 
 .button:hover {
-  background-color: #9a8d75;
+  background-color: #606060;
   width: 20%;
   border-radius: 10px;
 }
