@@ -188,9 +188,10 @@ Highcharts.chart('timeline_graph', {
             data: [
                 {
                 x: Date.UTC(2021, 06, 01),
-                x2: Date.UTC(2023, 06, 31),
+                x2: Date.now(),                //Date.UTC(2023, 06, 31),
                 y: 0,
                 color:'#282828',
+                //color:{patternIndex: 1}
                 },
             ],
             dataLabels: {
@@ -233,7 +234,7 @@ Highcharts.chart('timeline_graph', {
             data: [
                 {
                 x: Date.UTC(2022, 02, 01),
-                x2: Date.UTC(2022, 07, 01),
+                x2: Date.now(),
                 y: 1,
                 color:'#282828',
                 },
