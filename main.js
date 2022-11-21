@@ -234,9 +234,24 @@ Highcharts.chart('timeline_graph', {
             data: [
                 {
                 x: Date.UTC(2022, 02, 01),
+                x2: Date.UTC(2022, 06, 30),
+                y: 1,
+                color:'#484848',
+                },
+            ],
+            dataLabels: {
+                enabled: true
+            }
+        },
+        {
+            name: 'Solutions Architect - Bazefield',
+            pointWidth: 15,
+            data: [
+                {
+                x: Date.UTC(2022, 07, 01),
                 x2: Date.now(),
                 y: 1,
-                color:'#282828',
+                color:'#002828',
                 },
             ],
             dataLabels: {
